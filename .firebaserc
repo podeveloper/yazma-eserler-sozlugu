@@ -1,6 +1,7 @@
 {
   "projects": {
-    "prod": "yazma-eser-sozlugu"
+    "prod": "yazma-eser-sozlugu",
+    "default": "yazma-eser-sozlugu"
   },
   "targets": {},
   "etags": {}
