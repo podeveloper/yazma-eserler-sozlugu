@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node Modules (En önemlisi: Bağımlılık kütüphaneleri)
+node_modules
+.npm
+.yarn-integrity
+
+# Build Output (Derleme çıktıları - npm run build ile oluşanlar)
+dist
+dist-ssr
+*.local
+
+# Editor Directories (Kişisel editör ayarlarınız)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Firebase (Firebase cache ve debug dosyaları)
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Environment Variables (Gizli anahtarlar vs.)
+.env
+.env.local
+.env.*.local
+
+# Testing
+/coverage
+
+# Vite Temp
+*.tsbuildinfo

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global ek stiller */
+body {
+  @apply bg-gray-50 text-gray-800;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+input,
+textarea,
+button {
+  @apply focus:outline-none focus:ring-2 focus:ring-blue-400 transition;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-700;
+}
